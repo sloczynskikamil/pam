@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Professional Pizza Master I</string>
+    <string name="next_button">Dalej</string>
+    <string name="how_many_pizzas">Ile sztuk chcesz upiec?</string>
+    <string name="title_activity_2">Składniki</string>
+    <string name="igt_water_text">Woda:</string>
+    <string name="igt_flour1_text">Mąka - pierwsza porcja:</string>
+    <string name="igt_flour2_text">Mąka - druga porcja:</string>
+    <string name="igt_yeast_text">Drożdże:</string>
+    <string name="igt_sugar_text">Cukier:</string>
+    <string name="igt_salt_text">Sól:</string>
+    <string name="igt_olive_text">Oliwa:</string>
+    <string name="grams"> gramów</string>
+
+    //-------------------------------------
+
+    <string name="title_home">Główny</string>
+    <string name="title_dashboard">Pulpit</string>
+    <string name="title_notifications">Powiadomienia</string>
+    <string name="weight">Masa ciasta:</string>
+    <string name="piece_weight">Masa jednej kulki:</string>
+</resources>

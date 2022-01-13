@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="?attr/actionBarSize">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="54dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textViewWeight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/weight" />
+
+            <TextView
+                android:id="@+id/textViewWeightResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="s" />
+
+            <TextView
+                android:id="@+id/textViewGram3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/grams" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textViewPieceWeight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/piece_weight" />
+
+            <TextView
+                android:id="@+id/textViewPieceResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="s" />
+
+            <TextView
+                android:id="@+id/textViewGram10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/grams" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textViewWater"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/igt_water_text" />
+
+            <TextView
+                android:id="@+id/textViewWaterResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="s" />
+
+            <TextView
+                android:id="@+id/textViewGram"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/grams" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textViewFlourP1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/igt_flour1_text" />
+
+            <TextView
+                android:id="@+id/textViewFlourP1Result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="s" />
+
+            <TextView
+                android:id="@+id/textViewGram4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/grams" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textViewFlourP2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/igt_flour2_text" />
+
+            <TextView
+                android:id="@+id/textViewFlourP2Result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="s" />
+
+            <TextView
+                android:id="@+id/textViewGram5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/grams" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textViewYeast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/igt_yeast_text" />
+
+            <TextView
+                android:id="@+id/textViewYeastResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="s" />
+
+            <TextView
+                android:id="@+id/textViewGram6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/grams" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textViewSugar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/igt_sugar_text" />
+
+            <TextView
+                android:id="@+id/textViewSugarResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="s" />
+
+            <TextView
+                android:id="@+id/textViewGram7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/grams" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textViewSalt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/igt_salt_text" />
+
+            <TextView
+                android:id="@+id/textViewSaltResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="s" />
+
+            <TextView
+                android:id="@+id/textViewGram8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/grams" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textViewOlive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/igt_olive_text" />
+
+            <TextView
+                android:id="@+id/textViewOliveResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="s" />
+
+            <TextView
+                android:id="@+id/textViewGram9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/grams" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/nextButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="333dp"
+        android:text="@string/next_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

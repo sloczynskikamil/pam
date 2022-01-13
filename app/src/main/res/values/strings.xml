@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Professional Pizza Master I</string>
+    <string name="next_button">Next</string>
+    <string name="how_many_pizzas">How many pizzas today?</string>
+    <string name="title_activity_2">Ingredients</string>
+    <string name="igt_water_text">Water:</string>
+    <string name="igt_flour1_text">Flour - first dose:</string>
+    <string name="igt_flour2_text">Flour - second dose:</string>
+    <string name="igt_yeast_text">Yeast:</string>
+    <string name="igt_sugar_text">Sugar:</string>
+    <string name="igt_salt_text">Salt:</string>
+    <string name="igt_olive_text">Olive:</string>
+    <string name="grams">grams</string>
+    <string name="weight">Dough weight:</string>
+    <string name="piece_weight">One ball weight:</string>
+
+    //---------------------------------------------------------------
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>
