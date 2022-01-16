@@ -13,9 +13,29 @@
     <string name="grams">grams</string>
     <string name="weight">Dough weight:</string>
     <string name="piece_weight">One ball weight:</string>
+    <string name="countdown_mieszanie">Stir for</string>
+    <string name="flour2">Add second portion of flour</string>
+    <string name="countdown_ugniatanie">Knead for</string>
+    <string name="fridgeFerm">Leave for fermentation for:</string>
+    <string name="riseTemperature">Leave on table to let the dough achieve room temperature:</string>
+    <string name="form">Form the dough, add toping and bake. Enjoy!</string>
+    <string name="end">Quit</string>
+    <string name="kulki">Divide the dough into equal parts and put to the fridge for second fermentation</string>
 
     //---------------------------------------------------------------
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="title_activity_3">Activity3</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="countdown_blokFerm">Leave the dough for first fermentation</string>
+    <string name="title_activity_9">bug</string>
+    <string name="toast">Insert pizzas amount</string>
 </resources>

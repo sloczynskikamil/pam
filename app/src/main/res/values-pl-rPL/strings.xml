@@ -20,4 +20,22 @@
     <string name="title_notifications">Powiadomienia</string>
     <string name="weight">Masa ciasta:</string>
     <string name="piece_weight">Masa jednej kulki:</string>
+    <string name="countdown_mieszanie">Mieszaj przez</string>
+    <string name="title_activity_3">Aktywność3</string>
+    <string name="first_fragment_label">Pierwszy fragment</string>
+    <string name="second_fragment_label">Drugi fragment</string>
+    <string name="next">Dalej</string>
+    <string name="previous">Wstecz</string>
+    <string name="hello_first_fragment">Cześć pierwszy fragment</string>
+    <string name="hello_second_fragment">Cześć drugi fragment</string>
+    <string name="flour2">Dodaj drugą porcję mąki</string>
+    <string name="countdown_ugniatanie">Ugniataj przez</string>
+    <string name="countdown_blokFerm">Pozostaw ciasto do pierwszej fermentacji</string>
+    <string name="kulki">Podziel ciasto na równe części i włóż do lodówki na drugą fermentację</string>
+    <string name="fridgeFerm">Pozwól fermentować ciastu w lodówce przez:</string>
+    <string name="riseTemperature">Zostaw ciasto na blacie żeby nabrało temperatury pokojowej</string>
+    <string name="form">Uformuj ciasto, dodaj dodatki i piecz. Smacznego!</string>
+    <string name="end">Zakończ</string>
+    <string name="title_activity_9">bug</string>
+    <string name="toast">Wprowadź ile chcesz upiec pizzuń.</string>
 </resources>
