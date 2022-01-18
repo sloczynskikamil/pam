@@ -10,22 +10,50 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class Activity2 extends AppCompatActivity {
 
-    TextView water = findViewById(R.id.textViewWaterResult);
-    TextView f1 = findViewById(R.id.textViewFlourP1Result);
-    TextView f2 = findViewById(R.id.textViewFlourP2Result);
-    TextView sugar = findViewById(R.id.textViewSugarResult);
-    TextView salt = findViewById(R.id.textViewSaltResult);
-    TextView yeast = findViewById(R.id.textViewYeastResult);
-    TextView olive = findViewById(R.id.textViewOliveResult);
+    TextView water;
+    TextView f1;
+    TextView f2;
+    TextView sugar;
+    TextView salt;
+    TextView yeast;
+    TextView olive;
 
-    TextView pieceWeight = findViewById(R.id.textViewPieceResult);
-    TextView weight = findViewById(R.id.textViewWeightResult);
+    TextView pieceWeight;
+    TextView weight;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_2);
+        initComponents();
         Intent nextIntent = getIntent();
-        String message = nextIntent.getStringExtra("ile");
-        calculateIngredients(Integer.parseInt(message));
+        int result = nextIntent.getIntExtra("ile", 0);
+        calculateIngredients(result);
+        initListeners();
+    }
+
+    private void initListeners() {
+        Button nextButton2 = findViewById(R.id.nextButton4);
+
+        nextButton2.setOnClickListener(nextButton2Listener);
+    }
+
+    private final View.OnClickListener nextButton2Listener = v -> callActivity3();
+
+    private void callActivity3() {
+        Intent nextIntent = new Intent(this, Activity3.class);
+        startActivity(nextIntent);
+    }
+
+    private void initComponents() {
+        water = findViewById(R.id.textViewWaterResult);
+        f1 = findViewById(R.id.textViewFlourP1Result);
+        f2 = findViewById(R.id.textViewFlourP2Result);
+        sugar = findViewById(R.id.textViewSugarResult);
+        salt = findViewById(R.id.textViewSaltResult);
+        yeast = findViewById(R.id.textViewYeastResult);
+        olive = findViewById(R.id.textViewOliveResult);
+        pieceWeight = findViewById(R.id.textViewPieceResult);
+        weight = findViewById(R.id.textViewWeightResult);
     }
 
     public void calculateIngredients(int ile) {
@@ -48,6 +76,7 @@ public class Activity2 extends AppCompatActivity {
         float finalMakaSuma = finalMakaPorcja1 + finalMakaPorcja2;
         float wagaCiasta = finalMakaSuma + finalWoda + finalSol + finalDrozdze + finalCukier + finalOliwa;
 
+        water.setText("ABC");
         water.setText(String.valueOf(finalWoda));
         f1.setText(String.valueOf(finalMakaPorcja1));
         f2.setText(String.valueOf(finalMakaPorcja2));

@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         String pizzas = pizzasAmount.getText().toString();
         if (pizzas.matches("")) {
             Toast.makeText(this, R.string.toast, Toast.LENGTH_SHORT).show();
-            return;
+          //  return;
         } else {
 
             Intent nextIntent = new Intent(this, Activity2.class);
